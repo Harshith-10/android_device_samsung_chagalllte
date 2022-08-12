@@ -38,8 +38,8 @@ PRODUCT_PACKAGES += \
     rild \
     libril \
     libreference-ril \
-    android.hardware.radio@1.0 \
-    android.hardware.radio.deprecated@1.0
+    android.hardware.radio@1.0.vendor \
+    android.hardware.radio.deprecated@1.0.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.legacy.rc
